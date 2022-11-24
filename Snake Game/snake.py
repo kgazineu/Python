@@ -36,7 +36,7 @@ clock = pygame.time.Clock()
 def lose():
     text = pygame.font.Font("special_font.ttf", 60)
     window.fill(black)
-    loss_text = text.render('SE FODEU', True, red)
+    loss_text = text.render('PERDEU', True, red)
     window.blit(loss_text, (320, 250))
     pygame.display.flip()
     time.sleep(1)
